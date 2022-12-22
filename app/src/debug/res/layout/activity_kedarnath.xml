@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kedarnath">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#6B000000">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/kedarnathsa1"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Amount :"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:id="@+id/ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.500"
+                    android:layout_toRightOf="@+id/amount"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day : "
+                    android:layout_toRightOf="@+id/ok"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="27dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/rf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 Day 4 Night"
+                    android:layout_toRightOf="@+id/day"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#C55656">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Picture of kedarnath All Place : "
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="#C55656">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kedarnathsa2"
+                        android:layout_marginRight="3dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kedarnathsa3"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:background="#C55656">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kedarnath Temple"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shankracharya "
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="#C55656">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kedarnathsa4"
+                        android:layout_marginRight="3dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kedarnathsa5"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:background="#C55656">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chorabari tal"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="meditation Cave"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="#C55656">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kedarnathsa6"
+                        android:layout_marginRight="3dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kedarnathsa7"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:background="#C55656">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Glacier"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vasuki Taal"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel : "
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kedarnathsa9"
+                    android:layout_marginRight="3dp"
+                    android:background="#6B000000"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ap Hotel "
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FOOD : "
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hygienic and healthy Vegetarian food will be provide."
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pollicy : "
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancellation would be given by the Peakhiker's office on receivingcancellation request through registered mail ID only.The cancellation Amount will be counted on total fees only. Therefund amount will be paid in 10 to 15 working days through an ACpayee cheque."
+                    android:textStyle="italic"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
